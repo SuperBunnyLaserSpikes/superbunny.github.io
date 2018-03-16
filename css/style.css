@@ -16,6 +16,15 @@ h1 {
   font-size: 60px;
 }
 
+.title
+{
+   display: block;
+   margin-left: 40px;
+   margin-right: auto;
+   width: 70%;
+}
+
+
 h2 {
   font-size: 48px;
 }
@@ -150,7 +159,7 @@ a:focus, a:hover {
 }
 
 .bg-1 {
-  background: url(../images/backgrounds/bunny/banner-bg.png) no-repeat;
+  background: url(../images/backgrounds/bunny/bg.png) no-repeat;
   background-size: cover;
 }
 
@@ -508,7 +517,7 @@ a:focus, a:hover {
 }
 
 .main-nav {
-  background: #7d71d3;
+  background: #00324f;
   box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -524,8 +533,9 @@ a:focus, a:hover {
   position: relative;
   text-align: center;
   font-size: 13px;
+  font-weight: bold;
   text-transform: uppercase;
-  color: #fff;
+  color: #F78E39;
   padding-left: 15px;
   padding-right: 15px;
 }
