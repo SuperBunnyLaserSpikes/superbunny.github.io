@@ -19,6 +19,11 @@ h1 {
   font-size: 60px;
 }
 
+.font-form
+{
+    font-family: 'secondasoft-mediuuploadedfile';
+}
+
 .title
 {
    display: block;
@@ -2397,8 +2402,8 @@ a:focus, a:hover {
   width: 100%;
 }
  
-.store-badges{
-  max-width: 40%;
+.store-windows-badges{
+  padding-top: 10px;
 }
 
 
