@@ -596,7 +596,7 @@ a:focus, a:hover {
 }
 
 .footer-main {
-  padding: 50px 0;
+  padding: 20px 0;
   background: #500e34;
 }
 
@@ -698,7 +698,19 @@ a:focus, a:hover {
 @media (max-width: 768px) {
   .cta-subscribe .content {
     text-align: center;
+
   }
+  .cta-subscribe .row
+  {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+.cta-subscribe .row
+{
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .cta-subscribe .content .title {
