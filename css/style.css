@@ -78,7 +78,7 @@ body {
   line-height: 24px;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
-  color: #d3fff2;
+  background-color: #d3fff2
 }
 
 body, p, h1, h2, h3, h4, h5, h6 {
@@ -395,7 +395,6 @@ iframe {
   content: "";
   width: 365px;
   height: 1px;
-  background: #d7d7d7;
   position: absolute;
   right: -400px;
   bottom: 4px;
