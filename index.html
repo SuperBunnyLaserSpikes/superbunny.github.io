@@ -37,8 +37,8 @@
         
         <link href="css/style.css" rel="stylesheet">
         <link href="css/responsive.css" rel="stylesheet">
-        <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-        <style type="text/css">#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }</style>
+
+
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -142,9 +142,9 @@
                             <div class="nine_title">
                                 <h2>Became A Beta Tester</h2>
                             </div>
-                            <h4>Become a beta tester of Supper Bunny Laser Spikes and help us improve the game </h4>
+                            <h4>Become a beta tester of Supper Bunny Laser Spikes and help us improve the game.</h4>
                       
-                                <div id="mc_embed_signup row subscribe_form">
+                                <!--<div id="mc_embed_signup row subscribe_form">
 
                                 <form action="https://facebook.us8.list-manage.com/subscribe/post?u=e701d26deb60c6b77a91b6f09&amp;id=347f53988d" 
                                       method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" 
@@ -169,12 +169,30 @@
                                               <div class="response" id="mce-success-response" style="display:none"></div>
                                            </div>
                                            <div class="indicates-required subscribe_nine"><span class="asterisk">*</span> indicates required</div>
-                                           <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                           <
                                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e701d26deb60c6b77a91b6f09_347f53988d" tabindex="-1" value=""></div>
                                            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button subscribe_button"></div>
                                         </div>
                                     </form>
-                                </div>
+                                </div>-->
+
+                               
+                                <a href="#" id="open-popup" class="open-popup subscribe_button">Subscribe to our mailing list</a>
+
+<script>
+function showMailingPopUp() {
+    alert("Hello!");
+    require(["mojo/signup-forms/Loader"], function(L) {
+        L.start({"baseUrl":"mc.us8.list-manage.com","uuid":"e701d26deb60c6b77a91b6f09","lid":"347f53988d"})
+    });
+    document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+     alert("Hello!2");
+};
+
+alert("Hello! I ");
+document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
+</script>
+
 
                     </div>
 
@@ -811,7 +829,10 @@
         
         <!--gmaps Js-->
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+        <script type="text/javascript" src="https://downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+
         <script src="js/gmaps.min.js"></script>
+        <script type="text/javascript" src"js/mailchimp_popup.js"></script>
         
         <script src="js/theme.js"></script>
     </body>
