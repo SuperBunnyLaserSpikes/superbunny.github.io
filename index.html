@@ -178,20 +178,7 @@
 
                                
                                 <a href="#" id="open-popup" class="open-popup subscribe_button">Subscribe to our mailing list</a>
-      
-<script>
-function showMailingPopUp() {
-    alert("Hello!");
-    require(["mojo/signup-forms/Loader"], function(L) {
-        L.start({"baseUrl":"mc.us8.list-manage.com","uuid":"e701d26deb60c6b77a91b6f09","lid":"347f53988d"})
-    });
-    document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
-     alert("Hello!2");
-};
-
-alert("Hello! I ");
-document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
-</script>
+       
 
 
                     </div>
@@ -829,10 +816,25 @@ document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
         
         <!--gmaps Js-->
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-  <script type="text/javascript" src="http://s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+
 
         <script src="js/gmaps.min.js"></script>
         
         <script src="js/theme.js"></script>
+
+        <script type="text/javascript" src="https://downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+<script>
+function showMailingPopUp() {
+    alert("Hello!");
+    require(["mojo/signup-forms/Loader"], function(L) {
+        L.start({"baseUrl":"mc.us8.list-manage.com","uuid":"e701d26deb60c6b77a91b6f09","lid":"347f53988d"})
+    });
+    document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+     alert("Hello!2");
+};
+
+alert("Hello! I ");
+document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
+</script>
     </body>
 </html>
