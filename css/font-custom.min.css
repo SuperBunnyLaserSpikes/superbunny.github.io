@@ -1,0 +1,212 @@
+/*! * Font Awesome 4.4.0 by @davegandy - http://fontawesome.io - @fontawesome * License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License) */
+@font-face{
+   font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?fajh8d');
+  src:  url('../fonts/icomoon.eot?fajh8d#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?fajh8d') format('truetype'),
+    url('../fonts/icomoon.woff?fajh8d') format('woff'),
+    url('../fonts/icomoon.svg?fajh8d#icomoon') format('svg');
+    font-weight:normal;
+    font-style:normal
+}
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa{
+    display:inline-block;
+    font:normal normal normal 14px/1 FontAwesome;
+    font-size:inherit;
+    text-rendering:auto;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale
+}
+
+.icon-gauge:before {
+  content: "\e900";
+}
+
+.icon-puzzle:before{
+  content: "\e901";
+}
+
+.icon-friend-request:before{
+	content: "\e902";
+}
+
+.icon-idea:before{
+  content: "\e904";
+}
+
+.icon-no-internet-connection:before{
+  content: "\e905";
+}
+
+.icon-achievement:before{
+  content: "\e906";
+}
+
+.icon-paint-brush:before{
+  content: "\e907";
+}
+
+.icon-puzzle-valid:before{
+  content: "\e908";
+}
+
+.icon-event-on-day:before {
+  content: "\e909";
+}
+
+.icon-calendar:before {
+  content: "\e90a";
+}
+
+.icon-achievement4:before {
+  content: "\e90b";
+}
+
+.icon-trophy:before {
+  content: "\e90c";
+}
+
+.icon-responsive-design-for-modern-screens:before {
+  content: "\e90d";
+}
+
+.icon-responsive-design-for-variety-of-screens-formats:before {
+  content: "\e90e";
+}
+
+.icon-touch-screen:before {
+  content: "\e90f";
+}
+
+.icon-paint-palette-and-brush:before {
+  content: "\e913";
+}
+
+.icon-lightbulb-idea:before {
+  content: "\e914";
+}
+
+.icon-light-bulb:before {
+  content: "\e915";
+}
+
+.icon-note-paper-square-and-a-pencil:before {
+  content: "\e916";
+}
+
+.icon-pencil-on-a-notes-paper:before {
+  content: "\e917";
+}
+
+.icon-pencil:before {
+  content: "\e918";
+}
+
+.icon-friends-talking:before {
+  content: "\e919";
+}
+
+.icon-shaking-hands:before {
+  content: "\e91a";
+}
+
+.icon-noun_620556_cc:before {
+  content: "\e91b";
+}
+
+.icon-business-deal:before {
+  content: "\e91c";
+}
+
+.icon-men-shaking-hands:before {
+  content: "\e91d";
+}
+
+.icon-award:before {
+  content: "\e91e";
+}
+
+.icon-swords:before {
+  content: "\e91f";
+}
+
+.icon-document:before {
+  content: "\e920";
+}
+
+.icon-new-file:before {
+  content: "\e921";
+}
+
+.icon-brain:before {
+  content: "\e922";
+}
+
+.icon-brain-brain:before {
+  content: "\e923";
+}
+
+.icon-light-bulb-bulb:before {
+  content: "\e924";
+}
+
+.icon-idea2:before {
+  content: "\e925";
+}
+
+.icon-edit:before {
+  content: "\e926";
+}
+
+.icon-web-design:before {
+  content: "\e927";
+}
+
+.icon-bar-chart:before {
+  content: "\e928";
+}
+
+.icon-pencil-pencil:before {
+  content: "\e929";
+}
+
+.icon-gauge2:before {
+  content: "\e92a";
+}
+
+.icon-music-player:before {
+  content: "\e92b";
+}
+
+.icon-save:before {
+  content: "\e92d";
+}
+
+.icon-highlighter:before {
+  content: "\e92c";
+}
+
+
+.icon-emblem:before {
+  content: "\e92e";
+}
+
+.icon-patreon:before {
+  content: "\e930";
+}
+
