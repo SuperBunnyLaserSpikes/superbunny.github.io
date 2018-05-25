@@ -4204,9 +4204,10 @@ iframe {
     background: #F78E39;
     display: inline-block;
     white-space: nowrap;
+    letter-spacing: 2px;
     /* min-height: 60px; */
     /* margin: 0px 5px 0px 0px; */
-    padding: 2px 5px;
+    padding: 2px 10px;
     text-transform: uppercase;
     text-align: center;
     font-size: 20px;
@@ -4217,7 +4218,7 @@ iframe {
     height: auto;
     line-height: 150%;
     /* border-color: #500e34; */
-    width: 200px;
+    width: 250px;
     -webkit-box-shadow: 0px 0px 5px 5px rgba(255,255,255,1);
     -moz-box-shadow: 0px 0px 5px 5px rgba(255,255,255,1);
     box-shadow: 0px 0px 0px 3px rgba(255,255,255,1);
