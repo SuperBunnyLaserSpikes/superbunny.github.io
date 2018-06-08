@@ -1689,6 +1689,11 @@
 		text-align: center;
 	}
 
+	.about_nine_area .ab_nine_screen img {
+		max-width: 80%;
+		border-radius:0px;
+	}
+
 	.offcanvas_menu .offcanvas_text {
 		padding: 115px 0px 0px 20px;
 	}
