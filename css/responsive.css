@@ -1694,6 +1694,12 @@
 		border-radius:0px;
 	}
 
+	.nine_title h2
+	{
+		text-align: center;
+	}
+
+
 	.offcanvas_menu .offcanvas_text {
 		padding: 115px 0px 0px 20px;
 	}
