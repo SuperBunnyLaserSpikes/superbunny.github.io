@@ -2665,7 +2665,7 @@ iframe {
 /* Interface Area css
 ==============================================================================================*/
 .interface_area {
-  background: #eb484d;
+  background: #D3FFF2;
 }
 
 .interface_area .interface_slider h3 {
@@ -12785,19 +12785,19 @@ iframe {
 }
 
 .dot-3 {
-  background-color: #fc5a1a;
+  background-color: transparent;
   -webkit-animation: dot-3-move 2s ease infinite, index 6s ease infinite;
   animation: dot-3-move 2s ease infinite, index 6s ease infinite;
 }
 
 .dot-2 {
-  background-color: #0083ff;
+  background-color: transparent;
   -webkit-animation: dot-2-move 2s ease infinite, index 6s -4s ease infinite;
   animation: dot-2-move 2s ease infinite, index 6s -4s ease infinite;
 }
 
 .dot-1 {
-  background-color: #d30039;
+  background-color: transparent;
   -webkit-animation: dot-1-move 2s ease infinite, index 6s -2s ease infinite;
   animation: dot-1-move 2s ease infinite, index 6s -2s ease infinite;
 }

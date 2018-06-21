@@ -24,8 +24,10 @@
                 var scroll = $(window).scrollTop();   
                 if (scroll >= nav_offset_top ) {
                     $(".main_header_area, .dash_tp_menu_area, .hosting_menu, .mobile_menu_inner").addClass("navbar_fixed");
+					$("#header_line").css("visibility", "visible");
                 } else {
                     $(".main_header_area, .dash_tp_menu_area, .hosting_menu, .mobile_menu_inner").removeClass("navbar_fixed");
+					$("#header_line").css("visibility", "hidden");
                 }
             });
         };
