@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.imaginationoverflow.superbunnylaserspikes",
+    "sha256_cert_fingerprints":
+    ["08:DC:93:75:F3:47:60:3C:E6:51:E1:35:DB:0C:F1:F7:26:17:30:8C:BF:1C:FF:1A:03:D0:51:BF:BE:EB:C8:23"]
+  }
+}]
