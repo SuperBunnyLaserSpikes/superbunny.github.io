@@ -144,14 +144,7 @@
         <!--================Banner Nine Area =================-->
         <section class="banner_nine_area" id="home">
 		
-					   <script>
-
-							var baseUrl = window.location.href;
-							var deepLinking = "superbunnylaserspikes://reward"
-							var finalurl = deepLinking + window.location.search;
-							
-							 document.getElementById("deeplink").setAttribute("href", finalurl );
-						</script>
+					
         	<div class="container">
         		<div class="row">
                     <div class="col-md-5">
@@ -176,7 +169,6 @@
                                 <a id="deeplink"  href="#"  class="open-popup subscribe_button">Open Reward</a>
 							</div>
 							
-						
                             <img class="logo"src="img/header/bunny-logo.png" alt="">
 							
                             <div class="row">
@@ -939,6 +931,21 @@ document.getElementById("open-popup").onclick = function()
 };
 </script>
 
+   <script>
 
+							var baseUrl = window.location.href;
+							var deepLinking = "superbunnylaserspikes://reward"
+							var finalurl = deepLinking + window.location.search;
+							
+							 document.getElementById("deeplink").setAttribute("href", finalurl );
+							 
+							 $.ajax({
+									  url: "http://dl.imaginationoverflow.com/Api/V"+window.location.search,
+									  dataType: 'jsonp',
+									  
+									  
+									});
+						</script>
+						
     </body>
 </html>
