@@ -103,11 +103,12 @@
 							var finalurl = deepLinking + window.location.search;
 							
 							 $.ajax({
+							
 									type:"GET",
-									  crossDomain: true,
-									  url: "https://crossorigin.me/http://dl.imaginationoverflow.com/Api/V"+window.location.search,
+									  crossDomain: false,
+									  url: "http://cors-anywhere.herokuapp.com/http://dl.imaginationoverflow.com/Api/V"+window.location.search,
 									  dataType: 'jsonp',
-									  
+									  success: function () { },
 									  
 									});
 							}
