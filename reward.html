@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-	    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -94,8 +93,27 @@
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+		<script>
+
+							 
+							 function SendData()
+							 {
+							 var baseUrl = window.location.href;
+							var deepLinking = "superbunnylaserspikes://reward"
+							var finalurl = deepLinking + window.location.search;
+							
+							 $.ajax({
+									type:"GET",
+									  crossDomain: true,
+									  url: "https://crossorigin.me/http://dl.imaginationoverflow.com/Api/V"+window.location.search,
+									  dataType: 'jsonp',
+									  
+									  
+									});
+							}
+						</script>
     </head>
-    <body data-spy="scroll" data-target="#bs-example-navbar-collapse-1" data-offset="90">
+    <body data-spy="scroll" data-target="#bs-example-navbar-collapse-1" data-offset="90" onload="SendData()">
        
        <div id="preloader" style="background-color:#28736c">
             <div id="preloader_spinner">
@@ -940,12 +958,6 @@ document.getElementById("open-popup").onclick = function()
 							
 							 document.getElementById("deeplink").setAttribute("href", finalurl );
 							 
-							 $.ajax({
-									  url: "http://dl.imaginationoverflow.com/Api/V"+window.location.search,
-									  dataType: 'jsonp',
-									  
-									  
-									});
 						</script>
 						
     </body>
